@@ -1,4 +1,4 @@
-package com.ensat;
+package com.deloitte;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
