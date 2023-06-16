@@ -29,9 +29,9 @@ jobs:
         
       - name: Rebase branch with main
         run: |
-          git rebase main
+          git rebase origin main
           git checkout --theirs .
           git add .
           git rebase --continue
-          git push origin develop
+          git push origin origin develop
         
