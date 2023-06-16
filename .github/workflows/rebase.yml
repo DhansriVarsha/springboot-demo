@@ -29,10 +29,9 @@ jobs:
         
       - name: Rebase branch with main
         run: |
-          git checkout env/402
           git rebase main
           git checkout --theirs .
           git add .
           git rebase --continue
-          git push origin env/402
+          git push origin develop
         
