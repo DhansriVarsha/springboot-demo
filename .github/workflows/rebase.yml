@@ -35,5 +35,5 @@ jobs:
           git checkout --theirs .
           git add .
           git rebase --continue
-          git push origin 'feature/deve'
+          git push origin 'feature/dev'
         
