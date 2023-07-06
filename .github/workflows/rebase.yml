@@ -29,6 +29,7 @@ jobs:
         
       - name: Rebase branch with main
         run: |
+          git fetch
           git branch -a
           git checkout 'feature/dev'
           git rebase 'remote/origin/main'
