@@ -30,10 +30,10 @@ jobs:
       - name: Rebase branch with main
         run: |
           git branch -a
-          git checkout 'refs/heads/develop'
-          git rebase 'refs/heads/main'
+          git checkout 'feature/dev'
+          git rebase 'remote/origin/main'
           git checkout --theirs .
           git add .
           git rebase --continue
-          git push origin 'refs/heads/develop'
+          git push origin 'feature/deve'
         
